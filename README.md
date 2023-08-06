@@ -1047,7 +1047,33 @@ int main(){
 <details> <summary> Code(C++) </summary>
 
 ```c++
+#include <bits/stdc++.h>
+using namespace std;
 
+int main(){
+    int n,rev=0;
+
+    cin >> n;
+    int num = n;
+
+    while(n>0){
+        int last = n%10;
+        rev = rev*10+last;
+
+        int fast = n/10;
+        n=fast;
+    }
+    if(num==rev){
+        cout << rev << endl;
+        cout << "YES" << endl;
+    }
+    else{
+        cout << rev << endl;
+        cout << "NO" << endl;
+    }
+    
+    return 0;
+}
 
 ```
 
