@@ -1,13 +1,4 @@
-[![Stargazers][stars-shield]][stars-url]
-[![Forks][forks-shield]][forks-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-[forks-shield]: https://img.shields.io/github/forks/Andrew-Velox/CP-SOL-NOTES.svg?style=for-the-badge
-[forks-url]: https://github.com/Andrew-Velox/CP-SOL-NOTES/network/members
-[stars-shield]: https://img.shields.io/github/stars/Andrew-Velox/CP-SOL-NOTES.svg?style=for-the-badge
-[stars-url]: https://github.com/Andrew-Velox/CP-SOL-NOTES/stargazers
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/mohabbat69
 
 <h1 align="center"> Solution Of Some basic Codeforces Problems & Notes. 👾🎯 </h1>
 
