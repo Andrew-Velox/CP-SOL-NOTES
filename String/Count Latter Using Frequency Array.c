@@ -52,3 +52,45 @@ int main(){
     }
     return 0;
 } */
+
+
+// string serial wise
+/* 
+h - 0
+e - 0
+l - 0
+l - 1
+o - 1
+w - 0
+o - 0
+r - 1
+l - 0
+d - 0*/
+
+/* #include <stdio.h>
+
+int main(){
+    char s[100];
+    scanf("%s", s);
+    // gets(s);
+    
+    int cnt=0;
+    for(int x=0; s[x]!='\0'; x++) cnt++;
+
+    int freq[26]={0};
+    for(int x=0; x<cnt; x++){
+        freq[s[x]-'a']++;
+    }
+
+    for(int x=0; x<cnt; x++){
+        // if(freq[x]!=0){
+        //     printf("%c - %d\n",x+'a',freq[x]);
+        // }
+
+        printf("%c - %d\n",s[x]+'a'-97,freq[x]);
+    }
+    
+    return 0;
+} */
+
+
