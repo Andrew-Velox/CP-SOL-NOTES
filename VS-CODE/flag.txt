@@ -1,0 +1,1 @@
+-Wall -Wextra -Dvelox -Wl,--stack=268435456
