@@ -1,1 +1,4 @@
 "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && $dir$fileNameWithoutExt.exe", 
+
+
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && timeout 5s $dir$fileNameWithoutExt.exe output.txt || (echo Time Out Bro [^_^] > output.txt && echo '\\n Time Limit Exceeded [^_^]')",
