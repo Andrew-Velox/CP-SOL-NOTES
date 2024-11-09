@@ -1,0 +1,1 @@
+"cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && $dir$fileNameWithoutExt.exe", 
