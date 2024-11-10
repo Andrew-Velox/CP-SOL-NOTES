@@ -28,8 +28,10 @@ using namespace std;
 template <typename T> using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
 const ll MOD = 1e9+7;
 
-void error_txt(){
+void file(){
     #ifdef velox
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
     freopen("error.txt","w",stderr);
     #endif
 }
@@ -42,7 +44,7 @@ void solve(){
 }
 
 int main(){
-    // error_txt();
+    // file();
     ios_base::sync_with_stdio(0); cin.tie(0);
     ll t=1;
     cin >> t;
