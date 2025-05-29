@@ -1,0 +1,3 @@
+g++ -Dvelox ex.cpp -o ex -std=c++17
+
+./ex
