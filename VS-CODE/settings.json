@@ -1,11 +1,12 @@
 {   
-
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
     "code-runner.executorMap": {
 
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && $dir$fileNameWithoutExt.exe", 
+        // "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && ./$fileNameWithoutExt.exe", 
+        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt.exe -Dvelox && ./$fileNameWithoutExt.exe > output.txt", 
 
 
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && $dir$fileNameWithoutExt.exe",
+        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe",
         "python": "cd $dir && python -u $fileName" 
     },
     "cph.language.cpp.SubmissionCompiler": "GNU G++20 13.2 (64 bit, winlibs)",
@@ -15,17 +16,26 @@
     "editor.minimap.sectionHeaderFontSize": 5,
     "zenMode.hideLineNumbers": false,
     "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
-    "editor.lineHeight": 1.2,
+    "editor.lineHeight": 1.3,
     "workbench.activityBar.location": "top",
-    "editor.fontSize": 16.5,
+    "editor.fontSize": 17,
     // "terminal.integrated.tabs.defaultColor": "terminal.ansiGreen",
     "terminal.integrated.fontSize": 16,
     "code-runner.runInTerminal": true,
+    "code-runner.terminalRoot": "/",
+    "code-runner.defaultLanguage": "cpp",
+    "code-runner.respectShebang": false,
+    "terminal.integrated.automationProfile.windows": {
+        "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    },
+    "code-runner.terminal.name": "Code",
+    "code-runner.terminal.profile": "Git Bash",
     "workbench.colorTheme": "Mariana Dark Theme",
     "c-cpp-compile-run.cpp-flags": "-Wall -Wextra -Dvelox -Wl,--stack=268435456",
     "cph.language.cpp.Args": "-Dvelox",
     "explorer.confirmDelete": false,
     "workbench.settings.applyToAllProfiles": [
+
 
     ],
     "lldb.suppressUpdateNotifications": true,
