@@ -21,6 +21,7 @@ using namespace std;
 #define lcm(x,y) ((x/gcd(x,y))*y)
 #define YES cout << "YES" << endl
 #define NO cout << "NO" << endl
+#define ceil(x,y) ((x+y-1)/y)
 #define ll long long
 #define pb push_back
 #define endl '\n'
